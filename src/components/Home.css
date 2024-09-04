@@ -1,0 +1,23 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  
+  .home-header {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .home-paragraph {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .home-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+  }
+  
