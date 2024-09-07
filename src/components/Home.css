@@ -1,8 +1,8 @@
 /* Home.css */
 .home-container {
-    text-align: center;
-    padding: 20px;
-    background-color: #f0f8ff;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
   }
   
   .home-header {
