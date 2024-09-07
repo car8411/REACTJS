@@ -7,4 +7,6 @@
     color: white; /* 텍스트 색상 */
     padding: 10px 20px; /* 패딩 추가 */
     z-index: 1000; /* 다른 요소들보다 위에 위치하도록 설정 */
+
+    color:blueviolet;
   }

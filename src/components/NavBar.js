@@ -10,7 +10,7 @@ function NavBar() {
       <ul>
         <li><Link to="/">EXCEL</Link></li>
         <li><Link to="/about">POWERPOINT</Link></li>
-        <li><Link to="/Contact">ReactJs</Link></li>
+        <li><Link to="/contact">ReactJs</Link></li>
       </ul>
     </nav>
        <h1 className="home-header">Home Page</h1>

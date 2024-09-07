@@ -1,20 +1,24 @@
 .App {
     text-align: center;
     background-color:bisque;
+    color:blueviolet;
   }
   
   nav ul {
     list-style-type: none;
     padding: 0;
+    color:blueviolet;
   }
   
   nav ul li {
     display: inline;
     margin-right: 10px;
+    color:blueviolet;
   }
   
   nav ul li a {
     text-decoration: none;
     color: #007bff;
+    color:blueviolet;
   }
  
