@@ -2,10 +2,11 @@
   "name": "reactjs",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://jihunchja.com", 
- "scripts": {
+  "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build", 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
