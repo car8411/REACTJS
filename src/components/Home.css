@@ -1,7 +1,7 @@
 /* Home.css */
 .home-container {
   background-color: black;
-  color: white;
+  color: black;
   padding: 10px 20px;
   }
   
@@ -12,7 +12,7 @@
   
   .home-paragraph {
     font-size: 1.2em;
-    color: #555;
+    color: #333;
   }
   
   .home-image {
