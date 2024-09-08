@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
 
-function NavBar() {
+const Sidebar = () => {
   return (
-    <nav>
+    <aside className="sidebar">
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
@@ -12,8 +11,8 @@ function NavBar() {
         <li><Link to="/companyintroduce">Company</Link></li>
         <li><Link to="/login">Login</Link></li>
       </ul>
-    </nav>
+    </aside>
   );
-}
+};
 
-export default NavBar;
+export default Sidebar;

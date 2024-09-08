@@ -4,7 +4,9 @@ function Contact (){
     return (
     <div>
         <h1>
-            Hello, this is Contact page
+            <image >
+dddddd
+            </image>
         </h1>
     </div>
     );

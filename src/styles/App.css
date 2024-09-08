@@ -1,24 +1,45 @@
 .App {
     text-align: center;
-    background-color:bisque;
-    color:blueviolet;
+    background-color:rgb(240, 139, 15);
+    color:rgb(221, 36, 76);
+    align-content: center;
+    justify-content: center; 
   }
   
   nav ul {
     list-style-type: none;
     padding: 0;
-    color:blueviolet;
+    color:red;
+    background-color: #007bff;
+    align-content: center;
+    justify-content: center; 
   }
   
   nav ul li {
     display: inline;
     margin-right: 10px;
-    color:blueviolet;
+    color:red;
+    justify-content: center; 
   }
   
   nav ul li a {
     text-decoration: none;
     color: #007bff;
     color:blueviolet;
+    justify-content: center; 
+  }
+
+  nav ul li {
+    margin: 0 15px;  /* 리스트 아이템 간격 조정 */
+  }
+  
+  /* 링크 스타일링 */
+  nav ul li a {
+    text-decoration: none;  /* 링크의 기본 밑줄 제거 */
+    color: black;           /* 링크 색상 설정 */
+  }
+  
+  nav ul li a:hover {
+    color: blue; /* 마우스를 올렸을 때 색상 변경 */
   }
  

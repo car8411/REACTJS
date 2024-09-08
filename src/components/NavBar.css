@@ -1,12 +1,18 @@
 .NavBar {
     position: fixed; /* 상단에 고정 */
-    top: 0; /* 화면의 상단에 위치 */
-    left: 0; /* 화면의 왼쪽에 위치 */
+    top: 100; /* 화면의 상단에 위치 */
+    left: 10%; /* 화면의 왼쪽에 위치 */
     width: 100%; /* 전체 너비를 차지 */
     background-color: #333; /* 배경 색상 */
-    color: white; /* 텍스트 색상 */
+    color: blue; /* 텍스트 색상 */
     padding: 10px 20px; /* 패딩 추가 */
     z-index: 1000; /* 다른 요소들보다 위에 위치하도록 설정 */
-
-    color:blueviolet;
+    color:red;
+    justify-content: center; 
+    display:flex;
+    list-style-type: none;  /* 기본 리스트 스타일 제거 */
+    display: flex;          /* 플렉스 박스를 사용해 가로로 정렬 */
+    justify-content: space-around; /* 요소 사이에 균등한 간격 배치 (선택 사항) */
+    padding: 0;
+    margin: 0;
   }
