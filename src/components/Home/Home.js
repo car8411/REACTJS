@@ -9,11 +9,14 @@ function Home() {
 
   return (
     <div>
+    <div>
       <button Class="first" onClick={handleclick}>Home Page</button>
-      <input type="text" placeholder="Enter text"></input>
-      <button id="ad" onClick={() => window.location.href = 'https://jihunchja.com'}>Link</button>;
+      <input type="text" Class="text" placeholder="Enter text"></input>
+      <button id="ad" onClick={() => window.location.href = 'https://jihunchja.com'} >dd</button>
       </div>
-  );
+      <div id="column">
+      </div>
+      </div>);
 }
 
 export default Home;

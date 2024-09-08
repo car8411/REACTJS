@@ -1,11 +1,26 @@
 .App {
+  display:flex;
+  height:100vh;
+  margin-left: 250px; 
     text-align: center;
     background-color:rgb(240, 139, 15);
     color:rgb(221, 36, 76);
     align-content: center;
     justify-content: center; 
   }
-  
+  .main-layout {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 60px);
+    background-color:red; /* 헤더 높이를 제외한 영역 */
+  }
+  .content-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f0f0f0; /* 예시 배경색 */
+  }
+
   nav ul {
     list-style-type: none;
     padding: 0;
